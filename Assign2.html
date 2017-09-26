@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Assignment 2</title>
+   
+
+</head>
+    <style>
+
+      table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+              }
+
+      td, th {
+    
+      text-align: left;
+      padding: 8px;
+              }
+              }
+    </style>
+</head>
+	<body> 
+
+	<table border="0">
+  
+		<H1 align=center style="background-color:#525658;margin: 0;padding: 30px;border-bottom: 6px solid red; text-align: center; color : White;">HOTEL RESERVATION FORM</H1>
+
+		<H2 align=center>An online hotel booking form to track your bookings easily and manage further reservations more accurate.</H2>
+		
+
+	
+    	<tr>
+    		<td>
+				<form action="/action_page.php">
+  				First Name <br>
+  				<input type="text" name="First Name" value="">
+  				<br>
+  				</form>
+  			</td>
+  			<td>
+				<form action="/action_page.php">
+  				Last Name<br>
+  				<input type="text" name="Last Name" value="">
+  				<br>
+  				</form>
+  			</td>
+  		</tr>
+
+
+  		<tr>
+    		<td>
+				<form action="/action_page.php">
+  				Email Id<br>
+  				<input type="text" class="classemail" name= "email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Enter as 123@gmail.com" required style="width: 100%;">
+  				<br>
+  				</form>
+  			</td>
+        <td>
+        <form action="/action_page.php">
+          Phone no(xxx-xxx-xxxx)<br>
+          <input type="text" class="classphonenumber" name=" phonenumber" pattern= "[0-9._%+-]{12}" title = "Enter US number only" required style="width: 100%;">
+          </form>
+        </td>
+  		</tr>
+
+  		<tr>
+    		<td>
+				<form action="/action_page.php">
+  				Country:<br>
+  				<input type="text" name="Country" value="">
+  				<br>
+  				</form>
+  			</td>
+        <td>
+        <form action="/action_page.php">
+          City<br>
+          <input type="text" name="City" value="">
+          <br>
+          </form>
+        </td>
+  		</tr>
+
+  		<tr>
+    		<td>
+				<form action="/action_page.php">
+  				Address<br>
+  				<input type="text" name="Address" value="">
+  				<br>
+          <td>
+        <form action="/action_page.php">
+          Zip Code<br>
+          <input type="text" class="classpostal/zipcode" name="zipcode" pattern= "[0-9]+" title= " Numbers Only" required style="width: 100%;">
+          <br>
+          </form>
+        </td>
+  				</form>
+  			</td>
+  		</tr>
+
+      <tr>
+        <td>
+        <form action="/action_page.php">
+          Check-in Date<br>
+          <input type="date" class="classchechindate" name="check-in Date" required style="width: 100%;">
+          <br>
+          <td>
+        <form action="/action_page.php">
+          Check-out Date<br>
+          <input type="date" class="classcheckoutdate" name="Check-out Date" required style="width: 100%;">
+          <br>
+          </form>
+        </td>
+          </form>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+        <form action="/action_page.php">
+          Accomodation Type<br>
+          <input type="text" name="Accomodation Type" value="">
+          <br>
+          <td>
+        <form action="/action_page.php">
+          No of Rooms<br>
+          <input type="text" class="classnumberofrooms" name="numberofrooms" pattern="[0-9]+" title= "Numbers ONLY" required  style="width: 100%;">
+          <br>
+          </form>
+        </td>
+          </form>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+        <form action="/action_page.php">
+          Meal Plan<br>
+          <input type="text" class="classmealplan" name="mealplan" pattern="[A-Za-z]+" title="Alphabets only" required style="width: 100%;">
+          <br>
+          <td>
+        <form action="/action_page.php">
+          Room Type<br>
+          <input type="text" class="type" name="roomtype" pattern="[A-Za-z ]+" title="AC or Non- AC" required style="width: 100%;">
+          <br>
+          </form>
+        </td>
+          </form>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+        <form action="/action_page.php">
+          Additional Requests<br>
+          <textarea rows="4" style="width: 100%;"></textarea>
+          <br>
+          <td>
+        <form action="/action_page.php">
+          Pick up from Airport (add radio button here)<br>
+          <input type="radio" name="choose" required value="yes">
+                        " Yes"
+                        <input type="radio" name="choose" required value="no">
+                        "No"   
+          <br>
+          </form>
+        </td>
+          </form>
+        </td>
+      </tr>
+  			<tr>
+  				<td></td>
+          <td>
+  				<form>
+  					<br><br>
+  					<input type="submit" value="Submit">
+  					</form>
+  				</td>
+  			</tr>
+		</form> 
+			
+
+</body>
+</html>
